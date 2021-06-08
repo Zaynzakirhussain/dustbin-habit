@@ -1,7 +1,7 @@
 class paper extends BaseClass{
   constructor(x,y){
     super(x,y,35,35);
-    this.image = loadImage("sprites/paper.jpg");
+    this.image = loadImage("paper.jpg");
   }
   display(){
    // this.body.position.x = mouseX;
