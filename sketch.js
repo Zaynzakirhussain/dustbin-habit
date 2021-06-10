@@ -5,9 +5,6 @@ const Bodies = Matter.Bodies;
 var engine, world;
 var box, pig1,backgroundimage,paperi,paper1;
 
-function preload(){
-  paperi = loadImage("sprites/paper.jpg");
-}
 function setup(){
     var canvas = createCanvas(1360,400);
     engine = Engine.create();
